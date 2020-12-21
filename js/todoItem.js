@@ -3,7 +3,6 @@ import React from 'react';
 
 
 function TodoItem(props) {
-    console.log('props är ', props)
     let todoDone = '';
 
     if(props.done === true){
